@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTC Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bitcoin Calculator</h1>
+        <form>
+            <input type="number" id="amount" placeholder="Enter the amount to convert">
+            <label for="amount">Amount of Bitcoins</label>
+        </form>
+        <form>
+            <select id="mySelect">
+              <option value="USD">USD</option>
+              <option value="EUR">EUR</option>
+              <option value="GBP">GBP</option>
+            </select>
+          </form>
+          <button class="calculate">Calculate</button>
+
+          <hr>
+          <p class="answer"></p>
+    </div>
+    <script src="javascript/app.js"></script>
+</body>
+</html>
